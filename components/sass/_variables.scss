@@ -1,0 +1,50 @@
+// variables.scss
+// ==================
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@include border-box-sizing; //uses border box sizing like the old IE, i.e.: padding doesn't add to the total size of the element.
+
+$susy: (
+    columns: 12,
+    gutters: 1/4,
+    gutter-position: inside
+);
+
+//Screen sizes
+$smallest   : 400px;
+$small      : 650px;
+$medium     : 960px;
+$wide       : 1200px;
+
+
+//Add Colour Palette
+$blue       : #0c00ed;
+$purple     : #4e1656;
+$dark       : #000000;
+$light      : #ffffff;
+$yellow     : #fad53f;
+$gray       : #e5e5e5;
+$darkgray   : #262626;
+$lightgray  : #c0c0c0;
+$fucsia     : #d42392;
+$green      : #118f40;
+$bluenet    : #5e9cd1;
+
+$backgroundColour   : $light;
+$navBackground      : $dark;
+$navColour          : $light;
+
+//Colours nav effect
+$bgColorLiBefore: #7289B6;
+$bgColorLiAfter: $darkgray;
+$bgColorLi: $dark;
+
+//Font variables
+$fontFamily: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$regular    : 400;
+$bold       : 700;
+
+$headFont   : $bold 2em/2em $fontFamily;
+$mainFont   : $regular 1em/1.5em $fontFamily;
