@@ -112,10 +112,6 @@ body {
   height: 100%;
 }
 
-header .brand img {
-  width: 125px;
-  height: auto;
-}
 header .wrapper {
   position: relative;
   height: 900px;
@@ -138,4 +134,5 @@ header .wrapper .welcome-msg {
   top: 40%;
   bottom: 40%;
   left: 50%;
+  line-height: 2;
 }

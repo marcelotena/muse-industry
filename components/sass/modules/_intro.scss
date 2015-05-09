@@ -2,10 +2,6 @@
 // ==================
 
 header { 
-    .brand img {
-        width: 125px;
-        height: auto;
-    }
     .wrapper {
         position: relative;
         height: 900px;
@@ -30,7 +26,8 @@ header {
             margin-right: 30px;
             top: 40%;
             bottom: 40%;
-            left: 50%;            
+            left: 50%; 
+            line-height: 2;
         }
         
     }//wrapper
