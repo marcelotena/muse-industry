@@ -1,7 +1,10 @@
 // variables.scss
 // ==================
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+    font-family: Futuristic;
+    src: url(../font/FuturistFixedWidthRegular.woff);
+}
 
 @include border-box-sizing; //uses border box sizing like the old IE, i.e.: padding doesn't add to the total size of the element.
 
@@ -41,7 +44,7 @@ $bgColorLiAfter: $darkgray;
 $bgColorLi: $dark;
 
 //Font variables
-$fontFamily: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$fontFamily: Futuristic, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 $regular    : 400;
 $bold       : 700;

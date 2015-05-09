@@ -10,7 +10,6 @@ var jsSources = [
     //añade aquí archivos .js para concatenar en el script final
     //'components/scripts/*******.js'
     'components/scripts/jqloader.js',
-    'components/scripts/menulateral-jquery.js',
     'components/scripts/jquery.fancybox.js',
     'components/scripts/script.js'
 ];
