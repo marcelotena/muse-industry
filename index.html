@@ -38,6 +38,13 @@
         function escribe_enlace_correo(){ 
            document.write("<a id='email' href='mailto:" + dame_correo() + "'>" + dame_correo() + "</a>"); 
         }
+        
+        function escribe_link(){
+            document.write("<a href='mailto:"+ dame_correo() + "'>");
+        }
+        function escribe_final_link(){
+            document.write("</a>");
+        }
     </script>
 <header id="intro">
     <article class="wrapper">
@@ -64,6 +71,9 @@
             FEELS AND SOUNDS EXACTLY LIKE YOU<br>
             Because, after all, your brand is you
         </p>
+        <p class="coming-soon">COMING SOON</p>
+        <div id="brand-2"><script>escribe_link();</script><img src="images/logo.png" alt="Muse Industry Management Hong Kong"><script>escribe_final_link();</script></div>
+        <p class="e-mail"><script>escribe_enlace_correo();</script></p>
     </article>
 </header>
 
