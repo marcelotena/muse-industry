@@ -131,6 +131,10 @@ header .wrapper #first-form {
   background: url(../images/1-1.png);
   background-size: contain;
   background-repeat: no-repeat;
+  -webkit-animation-name: form-1;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-fill-mode: forwards;
+  visibility: hidden;
 }
 @media (min-width: 1500px) {
   header .wrapper #first-form {
@@ -155,6 +159,8 @@ header .wrapper .curtain-1 {
   left: 0;
   -webkit-animation-name: curtain-1;
   -webkit-animation-duration: 10s;
+  -webkit-animation-fill-mode: forwards;
+  visibility: hidden;
 }
 header .wrapper #brand {
   position: absolute;
@@ -162,6 +168,7 @@ header .wrapper #brand {
   width: 100%;
   height: 100%;
   z-index: 102;
+  visibility: hidden;
 }
 header .wrapper #brand img {
   display: block;
@@ -171,6 +178,7 @@ header .wrapper #brand img {
   opacity: 0;
   -webkit-animation-name: show-brand-1;
   -webkit-animation-duration: 10s;
+  -webkit-animation-fill-mode: forwards;
 }
 header .wrapper #second-form {
   position: fixed;
@@ -184,14 +192,14 @@ header .wrapper #second-form {
   background-size: contain;
   background-repeat: no-repeat;
   -webkit-animation-name: second-form;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 20s;
   -webkit-animation-delay: 10s;
 }
 header .wrapper .curtain-2 {
   z-index: 6;
   left: 0;
   -webkit-animation-name: curtain-2;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 20s;
   -webkit-animation-delay: 10s;
 }
 header .wrapper #third-form {
@@ -206,14 +214,14 @@ header .wrapper #third-form {
   background-size: contain;
   background-repeat: no-repeat;
   -webkit-animation-name: third-form;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 20s;
   -webkit-animation-delay: 10s;
 }
 header .wrapper .curtain-3 {
   z-index: 4;
   left: 0;
   -webkit-animation-name: curtain-3;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 20s;
   -webkit-animation-delay: 10s;
 }
 header .wrapper #fourth-form {
@@ -228,7 +236,7 @@ header .wrapper #fourth-form {
   background-size: contain;
   background-repeat: no-repeat;
   -webkit-animation-name: fourth-form;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 20s;
   -webkit-animation-delay: 10s;
 }
 @media (min-width: 1650px) {
@@ -240,16 +248,20 @@ header .wrapper .curtain-4 {
   z-index: 4;
   left: 0;
   -webkit-animation-name: curtain-4;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 20s;
   -webkit-animation-delay: 10s;
 }
 header .wrapper .intro-msg-1 {
+  z-index: 500;
   position: absolute;
   width: auto;
-  margin-right: 30px;
-  top: 45%;
-  left: 50%;
-  display: none;
+  right: 20%;
+  top: 12%;
+  display: block;
+  opacity: 0;
+  -webkit-animation-name: intro-msg;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-delay: 10s;
 }
 header .wrapper .welcome-msg {
   position: absolute;
@@ -266,6 +278,7 @@ header .wrapper .welcome-msg {
 @-webkit-keyframes curtain-1 {
   0% {
     left: 0;
+    visibility: visible;
   }
   25% {
     left: 100%;
@@ -275,11 +288,18 @@ header .wrapper .welcome-msg {
   }
   100% {
     left: 0;
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes form-1 {
+  0% {
+    visibility: visible;
   }
 }
 @-webkit-keyframes show-brand-1 {
   0% {
     opacity: 0;
+    visibility: visible;
   }
   30% {
     opacity: 1;
@@ -292,16 +312,18 @@ header .wrapper .welcome-msg {
   }
   100% {
     opacity: 0;
-    display: none;
+    visibility: hidden;
   }
 }
 @-webkit-keyframes curtain-2 {
   0% {
-    display: none;
-  }
-  50% {
     left: 0;
-    display: block;
+  }
+  5% {
+    left: 100%;
+  }
+  30% {
+    left: 100%;
   }
   60% {
     left: 100%;
@@ -312,28 +334,29 @@ header .wrapper .welcome-msg {
 }
 @-webkit-keyframes second-form {
   0% {
-    display: none;
+    visibility: visible;
   }
-  50% {
-    display: none;
-  }
-  60% {
-    display: block;
+  95% {
+    opacity: 1;
   }
   100% {
-    display: block;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes intro-msg {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 @-webkit-keyframes curtain-3 {
-  0% {
-    display: none;
-  }
-  50% {
-    display: none;
-  }
-  60% {
+  5% {
     left: 0;
-    display: block;
+  }
+  10% {
+    left: 100%;
   }
   70% {
     left: 100%;
@@ -344,28 +367,21 @@ header .wrapper .welcome-msg {
 }
 @-webkit-keyframes third-form {
   0% {
-    display: none;
+    visibility: visible;
   }
-  50% {
-    display: none;
-  }
-  70% {
-    display: block;
+  95% {
+    opacity: 1;
   }
   100% {
-    display: block;
+    opacity: 0;
   }
 }
 @-webkit-keyframes curtain-4 {
-  0% {
-    display: none;
-  }
-  50% {
-    display: none;
-  }
-  70% {
+  10% {
     left: 0;
-    display: block;
+  }
+  15% {
+    left: 100%;
   }
   80% {
     left: 100%;
@@ -376,12 +392,12 @@ header .wrapper .welcome-msg {
 }
 @-webkit-keyframes fourth-form {
   0% {
-    display: none;
+    visibility: visible;
   }
-  80% {
-    display: block;
+  95% {
+    opacity: 1;
   }
   100% {
-    display: block;
+    opacity: 0;
   }
 }
