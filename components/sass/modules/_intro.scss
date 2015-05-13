@@ -197,6 +197,7 @@ header {
             display: block;
             background: url(../images/2-3.png);
             background-size: contain;
+            background-position: top right;
             @include breakpoint (min-width 1650px) {
                 background-size: cover;
             }

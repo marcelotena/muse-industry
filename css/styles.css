@@ -312,6 +312,7 @@ header .wrapper #fourth-form {
   display: block;
   background: url(../images/2-3.png);
   background-size: contain;
+  background-position: top right;
   background-repeat: no-repeat;
   -webkit-animation-name: fourth-form;
   -webkit-animation-duration: 20s;
