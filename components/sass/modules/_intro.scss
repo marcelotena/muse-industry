@@ -120,8 +120,10 @@ header {
             animation-duration: 20s;
             animation-delay: 5s;
             @include breakpoint (max-width $small){
-                display: block;
                 top: -15%;
+            }
+            @include breakpoint (max-width $micro){
+                top: -30%;
             }
         }
         .curtain-2 {
@@ -166,8 +168,10 @@ header {
             animation-duration: 20s;
             animation-delay: 5s;
             @include breakpoint (max-width $small){
-                top: 10%;
-                display: block;
+                top: 18%;
+            }
+            @include breakpoint (max-width $micro){
+                top: 35%;
             }
         }
         .curtain-3 {
@@ -271,13 +275,22 @@ header {
             }
             @include breakpoint (max-width $small){
                 left: 15%;
+                top: 14%;
                 margin-right: 5%;
                 width: auto;
             }
             @include breakpoint (max-width $smallest){
                 left: 7.5%;
+                top: 14%;
                 font-size: 0.5em;
                 margin-right: 5%;
+                width: auto;
+            }
+            @include breakpoint (max-width $micro){
+                left: 2%;
+                top: 12%;
+                font-size: 0.2em;
+                margin-right: 2%;
                 width: auto;
             }
         }
@@ -319,11 +332,20 @@ header {
                 left: 15%;
                 margin-right: 5%;
                 width: auto;
+                top: 10%;
             }
             @include breakpoint (max-width $smallest){
                 left: 7%;
+                top: 10%;
                 margin-right: 5%;
                 width: auto;
+            }
+            @include breakpoint (max-width $micro){
+                left: 2%;
+                top: 5%;
+                margin-right: 2%;
+                width: auto;
+                font-size: 0.2em;
             }
         }
         .coming-soon, .e-mail, #brand-2 {
@@ -336,6 +358,10 @@ header {
         }
         #brand-2 {
             width: 100%;
+            @include breakpoint (max-width $small){
+                width: 80%;
+                margin: 0 auto;
+            }
             a {
                 display: block;
                 max-width: 500px;

@@ -235,8 +235,12 @@ header .wrapper #second-form {
 }
 @media (max-width: 750px) {
   header .wrapper #second-form {
-    display: block;
     top: -15%;
+  }
+}
+@media (max-width: 350px) {
+  header .wrapper #second-form {
+    top: -30%;
   }
 }
 header .wrapper .curtain-2 {
@@ -282,8 +286,12 @@ header .wrapper #third-form {
 }
 @media (max-width: 750px) {
   header .wrapper #third-form {
-    top: 10%;
-    display: block;
+    top: 18%;
+  }
+}
+@media (max-width: 350px) {
+  header .wrapper #third-form {
+    top: 35%;
   }
 }
 header .wrapper .curtain-3 {
@@ -397,6 +405,7 @@ header .wrapper .intro-msg-1 {
 @media (max-width: 750px) {
   header .wrapper .intro-msg-1 {
     left: 15%;
+    top: 14%;
     margin-right: 5%;
     width: auto;
   }
@@ -404,8 +413,18 @@ header .wrapper .intro-msg-1 {
 @media (max-width: 478px) {
   header .wrapper .intro-msg-1 {
     left: 7.5%;
+    top: 14%;
     font-size: 0.5em;
     margin-right: 5%;
+    width: auto;
+  }
+}
+@media (max-width: 350px) {
+  header .wrapper .intro-msg-1 {
+    left: 2%;
+    top: 12%;
+    font-size: 0.2em;
+    margin-right: 2%;
     width: auto;
   }
 }
@@ -454,13 +473,24 @@ header .wrapper .welcome-msg {
     left: 15%;
     margin-right: 5%;
     width: auto;
+    top: 10%;
   }
 }
 @media (max-width: 478px) {
   header .wrapper .welcome-msg {
     left: 7%;
+    top: 10%;
     margin-right: 5%;
     width: auto;
+  }
+}
+@media (max-width: 350px) {
+  header .wrapper .welcome-msg {
+    left: 2%;
+    top: 5%;
+    margin-right: 2%;
+    width: auto;
+    font-size: 0.2em;
   }
 }
 header .wrapper .coming-soon, header .wrapper .e-mail, header .wrapper #brand-2 {
@@ -473,6 +503,12 @@ header .wrapper .coming-soon, header .wrapper .e-mail, header .wrapper #brand-2 
 }
 header .wrapper #brand-2 {
   width: 100%;
+}
+@media (max-width: 750px) {
+  header .wrapper #brand-2 {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 header .wrapper #brand-2 a {
   display: block;
