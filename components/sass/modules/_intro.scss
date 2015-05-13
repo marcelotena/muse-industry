@@ -120,7 +120,8 @@ header {
             animation-duration: 20s;
             animation-delay: 5s;
             @include breakpoint (max-width $small){
-                display: none;
+                display: block;
+                top: -15%;
             }
         }
         .curtain-2 {
@@ -165,7 +166,8 @@ header {
             animation-duration: 20s;
             animation-delay: 5s;
             @include breakpoint (max-width $small){
-                display: none;
+                top: 10%;
+                display: block;
             }
         }
         .curtain-3 {

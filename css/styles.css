@@ -235,7 +235,8 @@ header .wrapper #second-form {
 }
 @media (max-width: 750px) {
   header .wrapper #second-form {
-    display: none;
+    display: block;
+    top: -15%;
   }
 }
 header .wrapper .curtain-2 {
@@ -281,7 +282,8 @@ header .wrapper #third-form {
 }
 @media (max-width: 750px) {
   header .wrapper #third-form {
-    display: none;
+    top: 10%;
+    display: block;
   }
 }
 header .wrapper .curtain-3 {
