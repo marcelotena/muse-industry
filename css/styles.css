@@ -135,6 +135,15 @@ header .wrapper #first-form {
   -webkit-animation-name: form-1;
   -webkit-animation-duration: 5s;
   -webkit-animation-fill-mode: forwards;
+  -moz-animation-name: form-1;
+  -moz-animation-duration: 5s;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-name: form-1;
+  -o-animation-duration: 5s;
+  -o-animation-fill-mode: forwards;
+  animation-name: form-1;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
   visibility: hidden;
 }
 @media (min-width: 1500px) {
@@ -161,6 +170,15 @@ header .wrapper .curtain-1 {
   -webkit-animation-name: curtain-1;
   -webkit-animation-duration: 5s;
   -webkit-animation-fill-mode: forwards;
+  -moz-animation-name: curtain-1;
+  -moz-animation-duration: 5s;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-name: curtain-1;
+  -o-animation-duration: 5s;
+  -o-animation-fill-mode: forwards;
+  animation-name: curtain-1;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
   visibility: hidden;
 }
 header .wrapper #brand {
@@ -180,6 +198,15 @@ header .wrapper #brand img {
   -webkit-animation-name: show-brand-1;
   -webkit-animation-duration: 5s;
   -webkit-animation-fill-mode: forwards;
+  -moz-animation-name: show-brand-1;
+  -moz-animation-duration: 5s;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-name: show-brand-1;
+  -o-animation-duration: 5s;
+  -o-animation-fill-mode: forwards;
+  animation-name: show-brand-1;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 header .wrapper #second-form {
   position: fixed;
@@ -196,6 +223,15 @@ header .wrapper #second-form {
   -webkit-animation-name: second-form;
   -webkit-animation-duration: 20s;
   -webkit-animation-delay: 5s;
+  -moz-animation-name: second-form;
+  -moz-animation-duration: 20s;
+  -moz-animation-delay: 5s;
+  -o-animation-name: second-form;
+  -o-animation-duration: 20s;
+  -o-animation-delay: 5s;
+  animation-name: second-form;
+  animation-duration: 20s;
+  animation-delay: 5s;
 }
 @media (max-width: 750px) {
   header .wrapper #second-form {
@@ -208,6 +244,15 @@ header .wrapper .curtain-2 {
   -webkit-animation-name: curtain-2;
   -webkit-animation-duration: 20s;
   -webkit-animation-delay: 5s;
+  -moz-animation-name: curtain-2;
+  -moz-animation-duration: 20s;
+  -moz-animation-delay: 5s;
+  -o-animation-name: curtain-2;
+  -o-animation-duration: 20s;
+  -o-animation-delay: 5s;
+  animation-name: curtain-2;
+  animation-duration: 20s;
+  animation-delay: 5s;
 }
 header .wrapper #third-form {
   position: fixed;
@@ -224,6 +269,15 @@ header .wrapper #third-form {
   -webkit-animation-name: third-form;
   -webkit-animation-duration: 20s;
   -webkit-animation-delay: 5s;
+  -moz-animation-name: third-form;
+  -moz-animation-duration: 20s;
+  -moz-animation-delay: 5s;
+  -o-animation-name: third-form;
+  -o-animation-duration: 20s;
+  -o-animation-delay: 5s;
+  animation-name: third-form;
+  animation-duration: 20s;
+  animation-delay: 5s;
 }
 @media (max-width: 750px) {
   header .wrapper #third-form {
@@ -236,6 +290,15 @@ header .wrapper .curtain-3 {
   -webkit-animation-name: curtain-3;
   -webkit-animation-duration: 20s;
   -webkit-animation-delay: 5s;
+  -moz-animation-name: curtain-3;
+  -moz-animation-duration: 20s;
+  -moz-animation-delay: 5s;
+  -o-animation-name: curtain-3;
+  -o-animation-duration: 20s;
+  -o-animation-delay: 5s;
+  animation-name: curtain-3;
+  animation-duration: 20s;
+  animation-delay: 5s;
 }
 header .wrapper #fourth-form {
   position: fixed;
@@ -253,6 +316,15 @@ header .wrapper #fourth-form {
   -webkit-animation-name: fourth-form;
   -webkit-animation-duration: 20s;
   -webkit-animation-delay: 5s;
+  -moz-animation-name: fourth-form;
+  -moz-animation-duration: 20s;
+  -moz-animation-delay: 5s;
+  -o-animation-name: fourth-form;
+  -o-animation-duration: 20s;
+  -o-animation-delay: 5s;
+  animation-name: fourth-form;
+  animation-duration: 20s;
+  animation-delay: 5s;
 }
 @media (min-width: 1650px) {
   header .wrapper #fourth-form {
@@ -270,6 +342,15 @@ header .wrapper .curtain-4 {
   -webkit-animation-name: curtain-4;
   -webkit-animation-duration: 20s;
   -webkit-animation-delay: 5s;
+  -moz-animation-name: curtain-4;
+  -moz-animation-duration: 20s;
+  -moz-animation-delay: 5s;
+  -o-animation-name: curtain-4;
+  -o-animation-duration: 20s;
+  -o-animation-delay: 5s;
+  animation-name: curtain-4;
+  animation-duration: 20s;
+  animation-delay: 5s;
 }
 header .wrapper .intro-msg-1 {
   z-index: 1000;
@@ -282,6 +363,15 @@ header .wrapper .intro-msg-1 {
   -webkit-animation-name: intro-msg;
   -webkit-animation-duration: 15s;
   -webkit-animation-delay: 5s;
+  -moz-animation-name: intro-msg;
+  -moz-animation-duration: 15s;
+  -moz-animation-delay: 5s;
+  -o-animation-name: intro-msg;
+  -o-animation-duration: 15s;
+  -o-animation-delay: 5s;
+  animation-name: intro-msg;
+  animation-duration: 15s;
+  animation-delay: 5s;
 }
 @media (max-width: 1350px) {
   header .wrapper .intro-msg-1 {
@@ -329,6 +419,15 @@ header .wrapper .welcome-msg {
   -webkit-animation-name: welcome-msg;
   -webkit-animation-duration: 20s;
   -webkit-animation-delay: 5s;
+  -moz-animation-name: welcome-msg;
+  -moz-animation-duration: 20s;
+  -moz-animation-delay: 5s;
+  -o-animation-name: welcome-msg;
+  -o-animation-duration: 20s;
+  -o-animation-delay: 5s;
+  animation-name: welcome-msg;
+  animation-duration: 20s;
+  animation-delay: 5s;
 }
 @media (max-width: 1350px) {
   header .wrapper .welcome-msg {
@@ -379,6 +478,15 @@ header .wrapper #brand-2 a {
   -webkit-animation-name: link-email;
   -webkit-animation-duration: 35s;
   -webkit-animation-delay: 0s;
+  -moz-animation-name: link-email;
+  -moz-animation-duration: 35s;
+  -moz-animation-delay: 0s;
+  -o-animation-name: link-email;
+  -o-animation-duration: 35s;
+  -o-animation-delay: 0s;
+  animation-name: link-email;
+  animation-duration: 35s;
+  animation-delay: 0s;
 }
 header .wrapper #brand-2 a img {
   display: block;
@@ -389,6 +497,15 @@ header .wrapper #brand-2 a img {
   -webkit-animation-name: brand-final;
   -webkit-animation-duration: 35s;
   -webkit-animation-delay: 0s;
+  -moz-animation-name: brand-final;
+  -moz-animation-duration: 35s;
+  -moz-animation-delay: 0s;
+  -o-animation-name: brand-final;
+  -o-animation-duration: 35s;
+  -o-animation-delay: 0s;
+  animation-name: brand-final;
+  animation-duration: 35s;
+  animation-delay: 0s;
 }
 header .wrapper .coming-soon {
   position: relative;
@@ -397,6 +514,15 @@ header .wrapper .coming-soon {
   -webkit-animation-name: coming-soon;
   -webkit-animation-duration: 35s;
   -webkit-animation-delay: 0s;
+  -moz-animation-name: coming-soon;
+  -moz-animation-duration: 35s;
+  -moz-animation-delay: 0s;
+  -o-animation-name: coming-soon;
+  -o-animation-duration: 35s;
+  -o-animation-delay: 0s;
+  animation-name: coming-soon;
+  animation-duration: 35s;
+  animation-delay: 0s;
 }
 @media (max-width: 650px) {
   header .wrapper .coming-soon {
@@ -408,6 +534,15 @@ header .wrapper .e-mail a {
   -webkit-animation-name: email;
   -webkit-animation-duration: 35s;
   -webkit-animation-delay: 0s;
+  -moz-animation-name: email;
+  -moz-animation-duration: 35s;
+  -moz-animation-delay: 0s;
+  -o-animation-name: email;
+  -o-animation-duration: 35s;
+  -o-animation-delay: 0s;
+  animation-name: email;
+  animation-duration: 35s;
+  animation-delay: 0s;
 }
 @media (max-width: 650px) {
   header .wrapper .e-mail a {
@@ -645,6 +780,744 @@ header .wrapper .e-mail a {
   }
 }
 @-webkit-keyframes email {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes curtain-1 {
+  0% {
+    left: 0;
+    visibility: visible;
+  }
+  25% {
+    left: 100%;
+  }
+  75% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+    visibility: hidden;
+  }
+}
+@-moz-keyframes form-1 {
+  0% {
+    visibility: visible;
+  }
+}
+@-moz-keyframes show-brand-1 {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  30% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@-moz-keyframes curtain-2 {
+  0% {
+    left: 0;
+  }
+  5% {
+    left: 100%;
+  }
+  30% {
+    left: 100%;
+  }
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@-moz-keyframes second-form {
+  0% {
+    visibility: visible;
+  }
+  95% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes welcome-msg {
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes intro-msg {
+  50% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes curtain-3 {
+  0% {
+    left: 0;
+  }
+  5% {
+    left: 100%;
+  }
+  30% {
+    left: 100%;
+  }
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@-moz-keyframes third-form {
+  0% {
+    visibility: visible;
+  }
+  95% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes curtain-4 {
+  0% {
+    left: 0;
+  }
+  5% {
+    left: 100%;
+  }
+  30% {
+    left: 100%;
+  }
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@-moz-keyframes fourth-form {
+  0% {
+    visibility: visible;
+  }
+  95% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes brand-final {
+  0% {
+    left: 9999px;
+    opacity: 0;
+  }
+  70% {
+    left: 0;
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes link-email {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  75% {
+    width: 0;
+    height: 0;
+  }
+  80% {
+    width: auto;
+    height: auto;
+  }
+  100% {
+    width: auto;
+    height: auto;
+  }
+}
+@-moz-keyframes coming-soon {
+  0% {
+    top: -5%;
+    opacity: 0;
+  }
+  70% {
+    top: -5%;
+    opacity: 0;
+  }
+  78% {
+    top: -5%;
+    opacity: 0;
+  }
+  80% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-moz-keyframes email {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes curtain-1 {
+  0% {
+    left: 0;
+    visibility: visible;
+  }
+  25% {
+    left: 100%;
+  }
+  75% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+    visibility: hidden;
+  }
+}
+@-o-keyframes form-1 {
+  0% {
+    visibility: visible;
+  }
+}
+@-o-keyframes show-brand-1 {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  30% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@-o-keyframes curtain-2 {
+  0% {
+    left: 0;
+  }
+  5% {
+    left: 100%;
+  }
+  30% {
+    left: 100%;
+  }
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@-o-keyframes second-form {
+  0% {
+    visibility: visible;
+  }
+  95% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes welcome-msg {
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes intro-msg {
+  50% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes curtain-3 {
+  0% {
+    left: 0;
+  }
+  5% {
+    left: 100%;
+  }
+  30% {
+    left: 100%;
+  }
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@-o-keyframes third-form {
+  0% {
+    visibility: visible;
+  }
+  95% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes curtain-4 {
+  0% {
+    left: 0;
+  }
+  5% {
+    left: 100%;
+  }
+  30% {
+    left: 100%;
+  }
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@-o-keyframes fourth-form {
+  0% {
+    visibility: visible;
+  }
+  95% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes brand-final {
+  0% {
+    left: 9999px;
+    opacity: 0;
+  }
+  70% {
+    left: 0;
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes link-email {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  75% {
+    width: 0;
+    height: 0;
+  }
+  80% {
+    width: auto;
+    height: auto;
+  }
+  100% {
+    width: auto;
+    height: auto;
+  }
+}
+@-o-keyframes coming-soon {
+  0% {
+    top: -5%;
+    opacity: 0;
+  }
+  70% {
+    top: -5%;
+    opacity: 0;
+  }
+  78% {
+    top: -5%;
+    opacity: 0;
+  }
+  80% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-o-keyframes email {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes curtain-1 {
+  0% {
+    left: 0;
+    visibility: visible;
+  }
+  25% {
+    left: 100%;
+  }
+  75% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+    visibility: hidden;
+  }
+}
+@keyframes form-1 {
+  0% {
+    visibility: visible;
+  }
+}
+@keyframes show-brand-1 {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  30% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes curtain-2 {
+  0% {
+    left: 0;
+  }
+  5% {
+    left: 100%;
+  }
+  30% {
+    left: 100%;
+  }
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes second-form {
+  0% {
+    visibility: visible;
+  }
+  95% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes welcome-msg {
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes intro-msg {
+  50% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes curtain-3 {
+  0% {
+    left: 0;
+  }
+  5% {
+    left: 100%;
+  }
+  30% {
+    left: 100%;
+  }
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes third-form {
+  0% {
+    visibility: visible;
+  }
+  95% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes curtain-4 {
+  0% {
+    left: 0;
+  }
+  5% {
+    left: 100%;
+  }
+  30% {
+    left: 100%;
+  }
+  60% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes fourth-form {
+  0% {
+    visibility: visible;
+  }
+  95% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes brand-final {
+  0% {
+    left: 9999px;
+    opacity: 0;
+  }
+  70% {
+    left: 0;
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes link-email {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  75% {
+    width: 0;
+    height: 0;
+  }
+  80% {
+    width: auto;
+    height: auto;
+  }
+  100% {
+    width: auto;
+    height: auto;
+  }
+}
+@keyframes coming-soon {
+  0% {
+    top: -5%;
+    opacity: 0;
+  }
+  70% {
+    top: -5%;
+    opacity: 0;
+  }
+  78% {
+    top: -5%;
+    opacity: 0;
+  }
+  80% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes email {
   0% {
     opacity: 0;
   }
