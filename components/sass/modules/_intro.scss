@@ -74,6 +74,7 @@ header {
             top: 0; left: 0;
             z-index: 5;
             width: 100%;
+            min-width: 750px;
             height: 100%;
             display: block;
             background: url(../images/2-1.png);
@@ -82,6 +83,9 @@ header {
             -webkit-animation-name: second-form;
             -webkit-animation-duration: 20s;
             -webkit-animation-delay: 5s;
+            @include breakpoint (max-width $small){
+                display: none;
+            }
         }
         .curtain-2 {
             z-index: 6;
@@ -97,6 +101,7 @@ header {
             top: -1px; left: 0;
             z-index: 3;
             width: 100%;
+            min-width: 750px;
             height: 100%;
             display: block;
             background: url(../images/2-2.png);
@@ -105,6 +110,9 @@ header {
             -webkit-animation-name: third-form;
             -webkit-animation-duration: 20s;
             -webkit-animation-delay: 5s;
+            @include breakpoint (max-width $small){
+                display: none;
+            }
         }
         .curtain-3 {
             z-index: 4;
@@ -118,14 +126,19 @@ header {
         #fourth-form {
             position: fixed;
             top: 0; right: 0;
-            z-index: 3;
+            margin-top: -1px;
+            z-index: 2;
             width: 100%;
             height: 100%;
+            min-width: 750px;
             display: block;
             background: url(../images/2-3.png);
             background-size: contain;
             @include breakpoint (min-width 1650px) {
                 background-size: cover;
+            }
+            @include breakpoint (max-width $small){
+                display: none;
             }
             background-repeat: no-repeat;
             -webkit-animation-name: fourth-form;
@@ -151,6 +164,29 @@ header {
             -webkit-animation-name: intro-msg;
             -webkit-animation-duration: 15s;
             -webkit-animation-delay: 5s;
+            @include breakpoint (max-width $wider){
+                left: 40%;
+            }
+            @include breakpoint (max-width $wide){
+                left: 45%;
+                font-size: 0.7em;
+            }
+            @include breakpoint (max-width $medium){
+                top: 8%;
+                left: 45%;
+                font-size: 0.65em;
+            }
+            @include breakpoint (max-width $small){
+                left: 15%;
+                margin-right: 5%;
+                width: auto;
+            }
+            @include breakpoint (max-width $smallest){
+                left: 7.5%;
+                font-size: 0.5em;
+                margin-right: 5%;
+                width: auto;
+            }
         }
         
         .welcome-msg {
@@ -166,6 +202,27 @@ header {
             -webkit-animation-name: welcome-msg;
             -webkit-animation-duration: 20s;
             -webkit-animation-delay: 5s;
+            @include breakpoint (max-width $wider){
+                left: 40%;
+            }
+            @include breakpoint (max-width $wide){
+                left: 45%;
+                font-size: 0.65em;
+            }
+            @include breakpoint (max-width $medium){
+                left: 45%;
+                font-size: 0.5em;
+            }
+            @include breakpoint (max-width $small){
+                left: 15%;
+                margin-right: 5%;
+                width: auto;
+            }
+            @include breakpoint (max-width $smallest){
+                left: 7%;
+                margin-right: 5%;
+                width: auto;
+            }
         }
         .coming-soon, .e-mail, #brand-2 {
             z-index: 1200;
@@ -281,21 +338,25 @@ header {
 @-webkit-keyframes third-form {
     0% {visibility: visible;}
     50% {}
-    70% {}
+    60% {}
+    95% {opacity: 1;}
+    80% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity:0;}
 }
 @-webkit-keyframes curtain-4 {
-    0% {}
-    8% {left: 0;}
-    10% {left: 100%;}
-    80% {left: 100%;}
+    0% {left: 0;}
+    5% {left: 100%;}
+    30% {left: 100%;}
+    60% {left: 100%;}
     100% {left: 100%;}
 }
 @-webkit-keyframes fourth-form {
     0% {visibility: visible;}
     50% {}
-    70% {}
+    60% {}
+    95% {opacity: 1;}
+    80% {opacity: 1;}
     95% {opacity: 1;}
     100% {opacity:0;}
 }
